@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		9F209A2E250436DA00E49B8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A2D250436DA00E49B8D /* AppDelegate.swift */; };
 		9F209A30250436DA00E49B8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A2F250436DA00E49B8D /* SceneDelegate.swift */; };
-		9F209A32250436DA00E49B8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A31250436DA00E49B8D /* ViewController.swift */; };
 		9F209A35250436DA00E49B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F209A33250436DA00E49B8D /* Main.storyboard */; };
 		9F209A37250436DD00E49B8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F209A36250436DD00E49B8D /* Assets.xcassets */; };
 		9F209A3A250436DD00E49B8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F209A38250436DD00E49B8D /* LaunchScreen.storyboard */; };
+		9F209A472504371100E49B8D /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A442504371000E49B8D /* UIImageView.swift */; };
+		9F209A482504371100E49B8D /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A452504371000E49B8D /* ExtensionUivew.swift */; };
+		9F209A492504371100E49B8D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A462504371100E49B8D /* UILabel.swift */; };
+		9F209A50250437F200E49B8D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F209A4A250437F100E49B8D /* HomeViewController.swift */; };
+		9FA5E8712505387300738B99 /* PostCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E8702505387300738B99 /* PostCardCollectionViewCell.swift */; };
+		9FA5E8732505389800738B99 /* StoryCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E8722505389800738B99 /* StoryCardCollectionViewCell.swift */; };
+		9FA5E8752505395B00738B99 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E8742505395B00738B99 /* StoryCollectionViewCell.swift */; };
+		9FA5E877250539C300738B99 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA5E876250539C300738B99 /* PostCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F209A2A250436DA00E49B8D /* instagram redesign 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram redesign 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F209A2D250436DA00E49B8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F209A2F250436DA00E49B8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F209A31250436DA00E49B8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F209A34250436DA00E49B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F209A36250436DD00E49B8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F209A39250436DD00E49B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F209A3B250436DD00E49B8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F209A442504371000E49B8D /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9F209A452504371000E49B8D /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
+		9F209A462504371100E49B8D /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9F209A4A250437F100E49B8D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9FA5E8702505387300738B99 /* PostCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FA5E8722505389800738B99 /* StoryCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FA5E8742505395B00738B99 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		9FA5E876250539C300738B99 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +72,52 @@
 			children = (
 				9F209A2D250436DA00E49B8D /* AppDelegate.swift */,
 				9F209A2F250436DA00E49B8D /* SceneDelegate.swift */,
-				9F209A31250436DA00E49B8D /* ViewController.swift */,
+				9F209A43250436F900E49B8D /* helper */,
+				9F209A42250436F300E49B8D /* view */,
+				9F209A41250436EC00E49B8D /* controller */,
 				9F209A33250436DA00E49B8D /* Main.storyboard */,
 				9F209A36250436DD00E49B8D /* Assets.xcassets */,
 				9F209A38250436DD00E49B8D /* LaunchScreen.storyboard */,
 				9F209A3B250436DD00E49B8D /* Info.plist */,
 			);
 			path = "instagram redesign 2";
+			sourceTree = "<group>";
+		};
+		9F209A41250436EC00E49B8D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F209A4A250437F100E49B8D /* HomeViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9F209A42250436F300E49B8D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9F209A5B2504384200E49B8D /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9F209A43250436F900E49B8D /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				9F209A452504371000E49B8D /* ExtensionUivew.swift */,
+				9F209A442504371000E49B8D /* UIImageView.swift */,
+				9F209A462504371100E49B8D /* UILabel.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		9F209A5B2504384200E49B8D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5E8702505387300738B99 /* PostCardCollectionViewCell.swift */,
+				9FA5E8722505389800738B99 /* StoryCardCollectionViewCell.swift */,
+				9FA5E8742505395B00738B99 /* StoryCollectionViewCell.swift */,
+				9FA5E876250539C300738B99 /* PostCollectionViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F209A32250436DA00E49B8D /* ViewController.swift in Sources */,
+				9F209A472504371100E49B8D /* UIImageView.swift in Sources */,
+				9F209A482504371100E49B8D /* ExtensionUivew.swift in Sources */,
+				9FA5E8752505395B00738B99 /* StoryCollectionViewCell.swift in Sources */,
+				9FA5E8712505387300738B99 /* PostCardCollectionViewCell.swift in Sources */,
 				9F209A2E250436DA00E49B8D /* AppDelegate.swift in Sources */,
+				9F209A492504371100E49B8D /* UILabel.swift in Sources */,
+				9FA5E8732505389800738B99 /* StoryCardCollectionViewCell.swift in Sources */,
+				9FA5E877250539C300738B99 /* PostCollectionViewCell.swift in Sources */,
+				9F209A50250437F200E49B8D /* HomeViewController.swift in Sources */,
 				9F209A30250436DA00E49B8D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.instagram-redesign-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.instagram-redesign-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
